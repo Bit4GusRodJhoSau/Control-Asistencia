@@ -1,0 +1,41 @@
+body {
+  padding-top: 70px;
+  background: url("../multimedia/img/fd.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+}
+
+.carousel-caption {
+  background-color: black;
+  opacity: 0.3;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.well{
+  opacity: 0.6;
+}
+
+.navegacion{
+  padding-top: 80px;
+}

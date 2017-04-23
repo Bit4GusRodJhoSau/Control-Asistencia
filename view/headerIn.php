@@ -16,7 +16,7 @@
         <div class="container-fluid">
           <div class="navbar-header">
 
-            <a class="navbar-brand" href="#" style="color: white;">CoAsistencia</a>
+            <a class="navbar-brand" href="#" style="color: white;">Coontrol de Asistencia</a>
           </div>
         </div>
       </nav>

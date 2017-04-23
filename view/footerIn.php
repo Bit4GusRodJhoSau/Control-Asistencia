@@ -1,5 +1,6 @@
-  <script type="text/javascript" src="view/libs/js/jquery-3.2.0.min.js"></script>
-  <script type="text/javascript" src="view/libs/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="view/libs/js/bootstrap-select.min.js"></script>
-</body>
+    <script src="view/libs/js/jquery.min.js"></script>
+    <script src="view/libs/js/tether.min.js"></script>
+    <script src="view/libs/js/bootstrap.min.js"></script>
+    <script src="view/libs/js/bootstrap-select.min.js"></script>
+  </body>
 </html>

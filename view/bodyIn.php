@@ -1,8 +1,8 @@
 <div class="container" >
     	<div class="row">
 			<div class="col-md-6 col-md-offset-3">
-				<div class="panel panel-primary" style="opacity:0.8">
-					<div class="panel-heading">
+				<div class="panel panel-default" style="opacity:0.95;">
+					<div class="panel-heading" style="background: rgb(17, 100, 126);">
 						<div class="row">
 							<div class="col-xs-12 text-center">
 								<a href="#" style="color:white;">LOGIN</a>

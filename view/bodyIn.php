@@ -5,7 +5,8 @@
 					<div class="panel-heading" style="background: rgb(17, 100, 126);">
 						<div class="row">
 							<div class="col-xs-12 text-center">
-								<a href="#" style="color:white;">LOGIN</a>
+                <center><img src="view/libs/multimedia/img/avatar.png" class="img-responsive" width="100" height="100" alt="icoAvatar"></center>
+								
 							</div>
 						</div>
 						<hr>
@@ -13,17 +14,17 @@
 					<div class="panel-body">
 						<div class="row">
 							<div class="col-lg-12">
-								<form id="login-form" action="" method="post">
+								<form id="login-form" action="index.php?modo=ingresar" method="post">
 									<div class="form-group">
-										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Usuario o E-mail" requiered>
+										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Usuario o E-mail" required>
 									</div>
 									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña" requiered>
+										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Contraseña" required>
 									</div>
 									<div class="form-group">
 										<div class="row">
 											<div class="col-sm-6 col-sm-offset-3">
-												<input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-danger"  value="INGRESAR">
+                        <button type="submit" name="login" id="login" tabindex="4" class="form-control btn btn-danger">INGRESAR</button>
 											</div>
 										</div>
 									</div>

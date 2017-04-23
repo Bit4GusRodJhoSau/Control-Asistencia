@@ -67,6 +67,13 @@ class ManagePage
           session_destroy();
           header("Location: index.php");
           break;
+
+      case 'ingresar':
+          include 'view/headerM.php';
+          include 'view/bodyM.php';
+          include 'view/footerM.php';
+        break;
+
       default:
         include 'view/headerIn.php';
         include 'view/bodyIn.php';

@@ -69,9 +69,7 @@ class ManagePage
           break;
 
       case 'ingresar':
-          include 'view/headerM.php';
-          include 'view/bodyM.php';
-          include 'view/footerM.php';
+        header("Location: view/menuAdmin.php");
         break;
 
       default:
@@ -82,6 +80,32 @@ class ManagePage
     }
 
   }
+
+  public function MenuAdmin()
+  {
+    switch ($this->Modo) {
+      case 'crudEmpleado':
+        include 'headerM.php';
+        include 'curdempleado.php';
+        include 'footerM.php';
+        break;
+      case 'reportes':
+        include 'headerM.php';
+        include 'reportes.php';
+        include 'footerM.php';
+        break;
+      case 'controlAsis':
+        include 'headerM.php';
+        include 'asistencia.php';
+        include 'footerM.php';
+        break;
+      default:
+        include 'headerM.php';
+        include 'bodyM.php';
+        include 'footerM.php';
+        break;
+    }
+  }//FIN menu Admin
 
 }
 
